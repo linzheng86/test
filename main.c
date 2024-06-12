@@ -304,6 +304,7 @@ int main(int argc, char **argv) {
         {
             perror("Pipe");
             exit(1);
+            // use this for error checking
         }
 
         pid_t child_pids = fork();
